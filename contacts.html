@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision Solutions - Контакты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span class="text-primary">Tech</span>Vision
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Команда</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Продукты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="bg-dark text-white py-5">
+        <div class="container py-5 animate__animated animate__fadeIn">
+            <h1 class="display-4 fw-bold">Контакты</h1>
+            <p class="lead">Свяжитесь с нами удобным способом</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container my-5 py-5">
+        <div class="row g-5">
+            <div class="col-lg-6 fade-in">
+                <h2 class="fw-bold mb-4">Свяжитесь с нами</h2>
+                <p class="text-muted mb-4">
+                    Заполните форму, и наш менеджер свяжется с вами в ближайшее время
+                </p>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="mb-4 form-group">
+                        <label class="form-label">Имя *</label>
+                        <input type="text" class="form-control form-control-lg" placeholder="Введите ваше имя" required>
+                    </div>
+
+                    <div class="mb-4 form-group">
+                        <label class="form-label">Email *</label>
+                        <input type="email" class="form-control form-control-lg" placeholder="example@company.com" required>
+                    </div>
+
+                    <div class="mb-4 form-group">
+                        <label class="form-label">Телефон *</label>
+                        <input type="tel" class="form-control form-control-lg" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+
+                    <div class="mb-4 form-group">
+                        <label class="form-label">Компания</label>
+                        <input type="text" class="form-control form-control-lg" placeholder="Название компании">
+                    </div>
+
+                    <div class="mb-4 form-group">
+                        <label class="form-label">Сообщение *</label>
+                        <textarea class="form-control" rows="4" placeholder="Опишите ваш запрос" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg w-100 submit-btn">
+                        Отправить заявку
+                    </button>
+
+                    <p class="small text-muted mt-3">
+                        * Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                    </p>
+                </form>
+
+                <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
+                    <strong>Спасибо!</strong> Ваше сообщение отправлено. Мы свяжемся с вами в ближайшее время.
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm mb-4 contact-card fade-in" data-delay="100">
+                    <div class="card-body p-4">
+                        <h5 class="card-title mb-4">Головной офис</h5>
+                        <div class="mb-3">
+                            <div class="d-flex align-items-start mb-3 contact-info">
+                                <div class="me-3 contact-icon">📍</div>
+                                <div>
+                                    <strong>Адрес:</strong><br/>
+                                    Казахстан, г. Алматы<br/>
+                                    пр. Достык, 123, БЦ "Tech Tower"<br/>
+                                    15 этаж, офис 1501
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3 contact-info">
+                                <div class="me-3 contact-icon">📞</div>
+                                <div>
+                                    <strong>Телефон:</strong><br/>
+                                    +7 (727) 250-00-00<br/>
+                                    +7 (727) 250-00-01
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3 contact-info">
+                                <div class="me-3 contact-icon">✉️</div>
+                                <div>
+                                    <strong>Email:</strong><br/>
+                                    info@techvision.kz<br/>
+                                    sales@techvision.kz
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start contact-info">
+                                <div class="me-3 contact-icon">🕐</div>
+                                <div>
+                                    <strong>Время работы:</strong><br/>
+                                    Пн-Пт: 09:00 - 18:00<br/>
+                                    Сб-Вс: выходной
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card border-0 shadow-sm mb-4 contact-card fade-in" data-delay="200">
+                    <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Региональные офисы</h5>
+                        <div class="mb-3 office-item">
+                            <strong>Астана</strong><br/>
+                            <span class="text-muted">пр. Кабанбай батыра, 15А</span><br/>
+                            <span class="text-muted">+7 (7172) 555-000</span>
+                        </div>
+                        <div class="office-item">
+                            <strong>Шымкент</strong><br/>
+                            <span class="text-muted">пр. Тауке хана, 28</span><br/>
+                            <span class="text-muted">+7 (7252) 444-000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card border-0 shadow-sm contact-card fade-in" data-delay="300">
+                    <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Техподдержка 24/7</h5>
+                        <p class="text-muted mb-3">Для экстренных вопросов</p>
+                        <div class="d-grid gap-2">
+                            <a href="tel:+77272500099" class="btn btn-outline-primary support-btn">
+                                📞 +7 (727) 250-00-99
+                            </a>
+                            <a href="mailto:support@techvision.kz" class="btn btn-outline-primary support-btn">
+                                ✉️ support@techvision.kz
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <div class="mt-5 fade-in">
+            <div class="card border-0 shadow-sm map-container">
+                <div class="card-body p-0">
+                    <div class="ratio ratio-21x9" style="min-height: 400px">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.534058827831!2d76.94226431550536!3d43.23885197913814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e84a8c8e6a1%3A0x3d44668fdc782954!2z0L_RgC4g0JTQvtGB0YLRi9C6LCDQkNC70LzQsNGC0Ys!5e0!3m2!1sru!2skz!4v1635432166554!5m2!1sru!2skz"
+                            style="border: 0"
+                            allowfullscreen
+                            loading="lazy"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-primary">TechVision Solutions</h5>
+                    <p class="text-muted">Инновационные IT-решения для вашего бизнеса</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h6>Контакты</h6>
+                    <p class="text-muted mb-1">Email: info@techvision.kz</p>
+                    <p class="text-muted mb-1">Телефон: +7 (727) 250-00-00</p>
+                    <p class="text-muted">Адрес: г. Алматы, пр. Достык 123</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h6>Быстрые ссылки</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Главная</a></li>
+                        <li><a href="about.html" class="text-light text-decoration-none">О компании</a></li>
+                        <li><a href="team.html" class="text-light text-decoration-none">Команда</a></li>
+                        <li><a href="products.html" class="text-light text-decoration-none">Продукты</a></li>
+                        <li><a href="contacts.html" class="text-light text-decoration-none">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary"/>
+            <div class="text-center text-muted">
+                <p class="mb-0">© 2024 TechVision Solutions. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Fade-in animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const delay = entry.target.dataset.delay || 0;
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, delay);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // Form animation
+        const formGroups = document.querySelectorAll('.form-group');
+        formGroups.forEach((group, index) => {
+            group.style.opacity = '0';
+            group.style.transform = 'translateX(-20px)';
+            group.style.transition = 'all 0.5s ease';
+            
+            setTimeout(() => {
+                group.style.opacity = '1';
+                group.style.transform = 'translateX(0)';
+            }, 300 + index * 100);
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.querySelector('.submit-btn');
+            const successMessage = document.getElementById('successMessage');
+            
+            // Button animation
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Отправка...';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission
+            setTimeout(() => {
+                submitBtn.innerHTML = '✓ Отправлено';
+                submitBtn.classList.remove('btn-primary');
+                submitBtn.classList.add('btn-success');
+                
+                // Show success message
+                successMessage.style.display = 'block';
+                successMessage.style.opacity = '0';
+                setTimeout(() => {
+                    successMessage.style.transition = 'opacity 0.5s';
+                    successMessage.style.opacity = '1';
+                }, 100);
+                
+                // Reset form
+                setTimeout(() => {
+                    this.reset();
+                    submitBtn.innerHTML = 'Отправить заявку';
+                    submitBtn.classList.remove('btn-success');
+                    submitBtn.classList.add('btn-primary');
+                    submitBtn.disabled = false;
+                    successMessage.style.display = 'none';
+                }, 3000);
+            }, 1500);
+        });
+
+        // Contact card hover effects
+        document.querySelectorAll('.contact-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+                this.style.transition = 'transform 0.3s ease';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Contact info animation
+        document.querySelectorAll('.contact-info').forEach((info, index) => {
+            info.style.opacity = '0';
+            info.style.transform = 'translateX(-15px)';
+            info.style.transition = 'all 0.4s ease';
+            
+            setTimeout(() => {
+                info.style.opacity = '1';
+                info.style.transform = 'translateX(0)';
+            }, 800 + index * 150);
+        });
+
+        // Office items animation
+        document.querySelectorAll('.office-item').forEach((item, index) => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(10px)';
+            item.style.transition = 'all 0.4s ease';
+            
+            setTimeout(() => {
+                item.style.opacity = '1';
+                item.style.transform = 'translateY(0)';
+            }, 1200 + index * 200);
+        });
+
+        // Support button pulse animation
+        document.querySelectorAll('.support-btn').forEach(btn => {
+            btn.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.05)';
+                this.style.transition = 'transform 0.2s ease';
+            });
+            
+            btn.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+
+        // Contact icons rotation on hover
+        document.querySelectorAll('.contact-icon').forEach(icon => {
+            icon.style.transition = 'transform 0.3s ease';
+            
+            icon.parentElement.addEventListener('mouseenter', function() {
+                icon.style.transform = 'rotate(15deg) scale(1.2)';
+            });
+            
+            icon.parentElement.addEventListener('mouseleave', function() {
+                icon.style.transform = 'rotate(0) scale(1)';
+            });
+        });
+
+        // Map container animation
+        const mapContainer = document.querySelector('.map-container');
+        const mapObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'scale(1)';
+                    mapObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        if (mapContainer) {
+            mapContainer.style.opacity = '0';
+            mapContainer.style.transform = 'scale(0.95)';
+            mapContainer.style.transition = 'all 0.8s ease';
+            mapObserver.observe(mapContainer);
+        }
+
+        // Input focus animation
+        document.querySelectorAll('.form-control').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.style.transform = 'scale(1.02)';
+                this.style.transition = 'transform 0.2s ease';
+            });
+            
+            input.addEventListener('blur', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+    
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .contact-card {
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2) !important;
+        }
+
+        .form-control:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
+
+        .submit-btn {
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+            display: inline-block;
+        }
+    </style>
+</body>
+</html>
